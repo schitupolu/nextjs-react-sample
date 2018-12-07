@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-react-sample",
+  "version": "1.0.0",
+  "description": "This is a Sample project for NextJS with ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skchi/nextjs-react-sample.git"
+  },
+  "author": "Satish Chitupolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skchi/nextjs-react-sample/issues"
+  },
+  "homepage": "https://github.com/skchi/nextjs-react-sample#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
