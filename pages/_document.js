@@ -4,13 +4,14 @@ export default class MyDocument extends Document {
     render() {
         return (
             <html>
-                <Head>
-                    <title>NextJS Project</title>
-                </Head>
-                <body>
-                    <Main/>
-                    <NextScript/>
-                </body>
+            <Head>
+                {/*<title>NextJS Project</title>*/}
+                <link rel="stylesheet" href="/_next/static/style.css"/>
+            </Head>
+            <body>
+            <Main/>
+            <NextScript/>
+            </body>
             </html>
         );
     }

@@ -1,9 +1,10 @@
 import Navbar from '../components/Navbar';
+import "../scss/style.scss";
 
 const Index = () => (
     <section>
         <Navbar/>
-        <h1>Sample NextJS Project</h1>
+        <h1>My NextJS Project</h1>
     </section>
 );
 
